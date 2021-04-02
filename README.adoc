@@ -1,0 +1,18 @@
+= https://antora.org/[Antora] site generator GitHub Action with Lunr Search integration
+
+== Parameters
+* `antora_playbook` -- specifies the Antora playbook path within the repository
+* `site_sources_path` -- specifies the path within `$GITHUB_WORKSPACE` from where to run the site generation
+
+== How to add to your action
+[source,yaml]
+----
+name: "Generate site using antora site action"
+uses: ghost-420/antora-lunr-site-action@v1.0
+with:
+    antora_playbook: antora-playbook.yml
+    # optional path within the repo, defaults to ${{github.workspace}}
+    site_sources_path: 'site-souces-folder'
+----
+
+A complete example is available https://github.com/RijiN-Hack/Website[here].
