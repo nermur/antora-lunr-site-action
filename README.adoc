@@ -1,5 +1,3 @@
-= https://antora.org/[Antora] site generator GitHub Action with Lunr Search integration
-
 == Parameters
 * `antora_playbook` -- specifies the Antora playbook path within the repository
 * `site_sources_path` -- specifies the path within `$GITHUB_WORKSPACE` from where to run the site generation
