@@ -1,5 +1,5 @@
-name: "Antora Site"
-description: "Generate the Antora site"
+name: "Antora Site with Lunr Search"
+description: "Generates an Antora site with Lunr Search integrated"
 branding:
   icon: book-open
   color: yellow

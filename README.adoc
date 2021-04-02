@@ -7,10 +7,12 @@
 == How to add to your action
 [source,yaml]
 ----
-name: "Generate site using antora site action"
+name: Generate Antora Site with Lunr Search
+# You may pin to the exact commit or the version.
+# uses: ghost-420/antora-lunr-site-action@d83b765b2ffc8e7fe2c8743acb919f3a882f65a5
 uses: ghost-420/antora-lunr-site-action@v1.0
 with:
-    antora_playbook: antora-playbook.yml
+    antora_playbook: github.yml
     # optional path within the repo, defaults to ${{github.workspace}}
     site_sources_path: 'site-souces-folder'
 ----
