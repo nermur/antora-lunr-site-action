@@ -15,4 +15,5 @@ with:
     site_sources_path: 'site-souces-folder'
 ----
 
-A complete example is available https://github.com/RijiN-Hack/Website[here].
+A complete example is available link:https://github.com/RijiN-Hack/Website[here]. +
+link:https://github.com/Mogztter/antora-lunr[How to configure Lunr] (for command-line options, fork this project and edit 'entrypoint.sh').
